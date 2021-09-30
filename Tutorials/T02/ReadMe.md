@@ -23,6 +23,7 @@ New-SampleModule @newSampleModuleParams
 
 
 You can check in your VS Code
+
 ![VSCode](./images/3-vs-code.PNG)
 
 The Sampler creates a folder **TestModule01** which has all the files required for Module building, publishing and automation 
