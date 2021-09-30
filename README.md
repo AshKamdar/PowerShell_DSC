@@ -7,5 +7,3 @@ Learning PowerShell DSC
 1. [T01 - Setup](./Tutorials/T01/ReadMe.md)
 2. [T02 - Creating a Module using Sampler](./Tutorials/T02/ReadMe.md)
 
-
-![Sampler Install](./images/02-sampler-install.PNG)
