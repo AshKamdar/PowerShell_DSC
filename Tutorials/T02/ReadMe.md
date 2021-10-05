@@ -25,8 +25,7 @@ New-SampleModule @newSampleModuleParams
 You can check in your VS Code
 
 
-![](./images/3-vs-code.PNG){:height="45%" width="45%" style="border: 2px solid black"}
-
+![](./images/3-vs-code.PNG)
 
 
 The Sampler creates a folder **TestModule01** which has all the files required for Module building, publishing and automation 
