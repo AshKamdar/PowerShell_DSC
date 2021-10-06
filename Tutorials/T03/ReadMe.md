@@ -1,4 +1,4 @@
-# Writing your own DSC Modules
+# Creating xHelloWorld module
 
 
 In last tutorial, we ended up creating an empty module. In this one, we will create a module with a purpose and add some meat to it (some PowerShell functions)
@@ -136,4 +136,19 @@ We successfully built a module and encapsulated our 2 powershell functions in it
 Now let us try to execute these functions
 
 **Step-4:** Running the Module
+
+Now if we want to check the module, we can do so by running following command
+
+> Get-Module xHelloWorld
+
+![](./images/14.PNG)
+
+Now let us execute both of our PowerShell functions
+
+![](./images/15.PNG)
+
+As you can see, we were able to successfully call both functions.
+
+And second function was called a couple of times by passing **Color** as input parameter.
+
 
