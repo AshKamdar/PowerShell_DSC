@@ -20,12 +20,12 @@ VersionedOutputDirectory: true
 #      ModuleBuilder Submodules Configuration      #
 ####################################################
 
-NestedModule:
-    DscResource.Common:
-      CopyOnly: true
-      Path: ./output/RequiredModules/DscResource.Common
-      AddToManifest: false
-      Exclude: PSGetModuleInfo.xml
+# NestedModule:
+#     DscResource.Common:
+#       CopyOnly: true
+#       Path: ./output/RequiredModules/DscResource.Common
+#       AddToManifest: false
+#       Exclude: PSGetModuleInfo.xml
 
 ####################################################
 #       Sampler Pipeline Configuration             #

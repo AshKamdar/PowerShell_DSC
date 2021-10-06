@@ -149,6 +149,26 @@ Now let us execute both of our PowerShell functions
 
 As you can see, we were able to successfully call both functions.
 
-And second function was called a couple of times by passing **Color** as input parameter.
+And second function was called a couple of times by passing a different **Color** as input parameter.
 
+
+**Step-5:** Clean up of unwanted sections
+
+We see that inside our xHelloWorld module, it has bundled another folder with name "Modules".
+
+![](./images/16.PNG)
+
+This can contain any dependencies that our PowerShell functions have.
+Since we do not have any dependency, let us clean this up a little bit.
+
+For this, open build.yaml file and comment line 23 to 28, as shown below
+
+![](./images/17.PNG)
+
+
+Now run build again and see what happens
+
+![](./images/18.PNG)
+
+You can see that our xHelloWorld module code looks a lot cleaner now.
 
