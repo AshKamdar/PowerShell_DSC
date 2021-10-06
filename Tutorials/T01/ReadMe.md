@@ -6,7 +6,7 @@
 
 > Install-PackageProvider -Name NuGet -Force
 
-**Step-2:** Check if you have PowerShellGet by running following command
+### **Step-2:** Check if you have PowerShellGet by running following command
 
 > Get-Module
 
@@ -19,6 +19,18 @@ If not, run following command
 
 > Install-Module -Name PowerShellGet -Force
 
+#
+
+## Setup Pre-requisites
+
+### **Step-1:** Install Git
+> choco install git
+
+### **Step-2:** Install Git.Version Portable
+
+> choco install GitVersion.Portable
+
+#
 
 ## Setup Sampler
 

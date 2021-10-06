@@ -102,9 +102,9 @@ So the build command can take parameters. In above case, it executed with parame
 Looks like our build failed.
 Reason: **Code Coverage FAILURE: 0 % is under the threshold of 85 %.**
 
-Since we have not written any test yet, there is no code coverage. 
+Since we have not written any code coverage scripts yet, there is 0% code coverage. 
 
-So let us change this threshold to "zero" for now.
+So let us change this threshold value to "zero" for now.
 
 For this, open the file named **build.yaml** and change value on line 88 from "85" to "0"
 
