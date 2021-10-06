@@ -7,7 +7,7 @@ Let us assume we want to create a module named **xHelloWorld**
 
 So let us create a couple of PowerShell functions that will be *packaged* inside this module **xHelloWorld**
 
-**Step-1:** Create PowerShell functions
+## **Step-1:** Create PowerShell functions
 
 ```
 function Msg-HelloWorld
