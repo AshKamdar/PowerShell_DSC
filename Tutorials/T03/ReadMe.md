@@ -29,7 +29,7 @@ function Msg-HelloWorldInColor
 
 ```
 
-**Step-2:** Create module xHelloWorld
+## **Step-2:** Create module xHelloWorld
 
 
 ```
@@ -56,7 +56,7 @@ You can check module in VSCode as shown below
 ![](./images/4.PNG)
 
 
-**Step-2:** Adding PowerShell functions to Module
+## **Step-3:** Adding PowerShell functions to Module
 
 As shown below, create a folder named **Public** under *Source* folder and create a file named *Msg-HelloWorld.ps1* inside Public folder.
 
@@ -69,7 +69,7 @@ Paste our powershell functions inside the file
 ![](./images/6.PNG)
 
 
-**Step-3:** Building the Module
+## **Step-4:** Building the Module
 
 Now let us build the module.
 
@@ -135,7 +135,7 @@ We successfully built a module and encapsulated our 2 powershell functions in it
 
 Now let us try to execute these functions
 
-**Step-4:** Running the Module
+## **Step-5:** Running the Module
 
 Now if we want to check the module, we can do so by running following command
 
@@ -152,7 +152,7 @@ As you can see, we were able to successfully call both functions.
 And second function was called a couple of times by passing a different **Color** as input parameter.
 
 
-**Step-5:** Clean up of unwanted sections
+## **Step-6:** Clean up of unwanted sections
 
 We see that inside our xHelloWorld module, it has bundled another folder with name "Modules".
 

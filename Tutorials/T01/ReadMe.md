@@ -2,7 +2,7 @@
 
 ## Setup PowerShellGet
 
-**Step-1:** Run following command
+### **Step-1:** Run following command
 
 > Install-PackageProvider -Name NuGet -Force
 
@@ -12,7 +12,7 @@
 
 ![Get-Module](./images/01-get-module.PNG)
 
-**Step-3:** If you already have PowerShellGet, then run following command
+### **Step-3:** If you already have PowerShellGet, then run following command
 > Update-Module -Name PowerShellGet
 
 If not, run following command
@@ -22,15 +22,15 @@ If not, run following command
 
 ## Setup Sampler
 
-**Step-1:** Set powershell permissions
+### **Step-1:** Set powershell permissions
 > Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 
-**Step-2:** Install Sampler
+### **Step-2:** Install Sampler
 
 > Install-Module -Name 'Sampler' -AllowPrerelease -Force -Scope CurrentUser
 
-**Step-3:** Load Sampler
+### **Step-3:** Load Sampler
 
 > Import-Module -Name Sampler -PassThru
 

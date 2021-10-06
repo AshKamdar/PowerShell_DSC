@@ -1,6 +1,6 @@
 # Creating a module using Sampler
 
-**Step-1:** Create parameter for module
+## **Step-1:** Create parameter for module
 
 ```
 $newSampleModuleParams = @{
@@ -12,7 +12,7 @@ $newSampleModuleParams = @{
 }
 ```
 
-**Step-1:** Create new module
+## **Step-2:** Create new module
 
 ```
 New-SampleModule @newSampleModuleParams
