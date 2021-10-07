@@ -22,6 +22,6 @@ Now if you bump up the version
 
 You will see it stamps the new version number while creating the module.
 
-## **Step-2:** Set version number automatically.
+## **Step-2:** Set version number automatically..
 
 
