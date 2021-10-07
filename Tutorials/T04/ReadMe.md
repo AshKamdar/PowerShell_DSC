@@ -6,7 +6,7 @@ We see that no matter how many times we build, the module is created with the sa
 So in this tutorial, let us learn how to set the version number manually.
 Later on, we will see how we can increment the version number automatically on every change.
 
-## **Step-1:** Set version number
+## **Step-1:** Set version number manually
 
 Create a PowerShell variable called **ModuleVersion** and set its value as follows
 
@@ -21,4 +21,7 @@ Now if you bump up the version
 ![](./images/2.PNG)
 
 You will see it stamps the new version number while creating the module.
+
+## **Step-2:** Set version number automatically
+
 
