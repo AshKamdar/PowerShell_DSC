@@ -16,4 +16,4 @@ After module is ready, we can run the following command to package it.
 
 ![](./images/3.PNG)
 
-As you can see above, our xHelloWorld module has been package successfully into a **.nupkg** file.
+As you can see above, our xHelloWorld module has been package successfully into a **.nupkg** file
